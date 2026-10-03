@@ -1,38 +1,118 @@
-.styled-table, .styled-table td, .styled-table th  {
-  border: 10px solid sandybrown;
- table-layout: fixed;
-  border-spacing: 1px;
-  padding: 10px;
+.p1 {
+  margin: 10px;
+  border: 2px solid black;
+  letter-spacing: 2px;
 }
-.container {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
-  display: -o-box;
+.span1 {
+  margin: 10px;
+  border: 2px solid black;
+  letter-spacing: 2px;
 }
+.p2 {
+  margin: 20px;
+  border: 5px solid black;
+  letter-spacing: 3px;
+}
+.span2 {
+  margin: 20px;
+  border: 5px solid black;
+  letter-spacing: 3px;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.flex {
+  display: flex;
+}
+.box {
+  box-sizing: content-box;
+  border: 1px solid black;
+}
+.box1 {
+  box-sizing: content-box;
+  width: 200px;
+  padding: 2px;
+  border: 3px solid black;
+}
+.div1 {
+  margin: 0;
+  
+}
+.p3 {
+  float: right;
+  
+}
+.p4 {
+  clear: both;
+}
+.p5 {
+  float: left;
+  
+}
+.overflow {
+  box-sizing: content-box;
+  width: 150px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: chocolate;
+  overflow: scroll;
+}
+.static {
+  position: static;
 
+}
+.relative {
+  position: relative;
+  left: 100px;
+  top: 300px;
 
-.styled-table {
+}
+.absolute {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+.fixed {
+  position: fixed;
+  left: 500px;
+  top: 400px;
+
+}
+.sticky {
+  position: sticky;
+  text-align: center;
+  z-index: 2;
+  
+}
+.fixed1 {
+  position: fixed;
+  top: 0px;
+  
+}
+.sticky1 {
+  position: sticky;
+  top: 150px;
+  margin: 25px;
+}
+.div2 {
+padding: 50px; 
+width: 1000px; 
+margin-top: 10px;
+height: 1000px;
+}
+.div3 {
   width: 1000px;
- height: 1000px;
+  height: 1000px;
 }
-.yellow1 {
-  background-color: yellow;
-}
-.tr1 {
-  height: 100px;
-  width: 1000px;
-}
-
-.th2 {
-  width: 10px;
-}
-.red {
-  background-color: red;
-}
-.black {
-  background-color: black;
-}
-.blue {
-  background-color: blue;
+.div4 {
+  width: 95%;
+  position: fixed;
+  top: 0px;
+  background-color: aqua;
+  text-align: center;
+  word-spacing: 10px;
+  font-size: 25px;
 }
