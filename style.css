@@ -1,0 +1,140 @@
+.block0 {
+  border: 10px solid black;
+  max-width: 1000px;
+}
+.block1 {
+  display: flex;
+  justify-content: space-between;
+  border: 10px;
+  
+  
+}
+.left {
+  flex-direction: left;
+  background-color: aqua;
+  justify-content: space-between;
+  
+  font-size: 250px;
+  
+}
+.right {
+  flex-direction: right;
+  background-color: blue;
+  justify-content: space-between;
+  font-size: 250px;
+  
+}
+.block2 {
+ 
+  max-width: 1000px;
+  display: flex;
+  border: solid black;
+  justify-content: space-between;
+  
+}
+.block2_left1 {
+  
+ display: flex;
+  font-size: 100px;
+  background-color: aqua;
+  
+}
+
+.block2_right1 {
+  display: flex;
+  font-size: 100px;
+  
+  background-color: brown;
+}
+  
+.block3 {
+ 
+  max-width: 1000px;
+  display: flex;
+  border: solid black;
+  justify-content: space-between;
+  
+}
+.block3_left1 {
+  
+ display: flex;
+  font-size: 100px;
+  background-color: aqua;
+  
+}
+
+.block3_right1 {
+  display: flex;
+  font-size: 100px;
+  
+  background-color: brown;
+}
+.block4 {
+ 
+  max-width: 1000px;
+  display: flex;
+  border: solid black;
+  justify-content:end
+  
+}
+.block4_upside1 {
+  
+ display: flex;
+  font-size: 100px;
+  background-color: aqua;
+  flex-direction: column;
+  
+}
+
+.block4_right1 {
+  display: flex;
+  font-size: 100px;
+  flex-direction: row;
+  background-color: brown;
+}
+.block5 {
+ 
+  max-width: 1000px;
+  display: flex;
+  border: solid black;
+  justify-content:center
+  
+}
+.block5_upside1 {
+  
+ display: flex;
+  font-size: 100px;
+  background-color: aqua;
+  flex-direction: column;
+  
+}
+
+.block5_right1 {
+  display: flex;
+  font-size: 100px;
+  flex-direction: row;
+  background-color: brown;
+}
+.block6 {
+ 
+  max-width: 1000px;
+  display: flex;
+  border: solid black;
+  justify-content:center
+  
+}
+.block6_upside1 {
+  
+ display: flex;
+  font-size: 100px;
+  background-color: aqua;
+  flex-direction: column;
+  
+}
+
+.block6_right1 {
+  display: flex;
+  font-size: 100px;
+  flex-direction: row;
+  background-color: brown;
+}
