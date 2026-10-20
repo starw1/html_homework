@@ -25,6 +25,7 @@ padding-bottom: 80px;
   display: flex;
   align-items: center;
   gap: 50px;
+  
 }
 .menu__item{
   color: #000;
@@ -193,4 +194,332 @@ line-height: normal;
   font-style: normal;
   font-weight: 400;
   line-height: 164.063%; /* 21.328px */
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+  
+  .container {
+padding: 0 300px;
+
+}
+
+.section1{
+  width: 1280px;
+  padding-top: 80px;
+  padding-bottom: 80px;}
+  
+  .menu{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+  width: 480px;
+  
+}
+.menu__item{
+  font-size: 16px;
+  font-style: normal;
+}
+
+.main{
+  margin: 160px 0 60px;
+  gap: 60px;
+}
+.main__heading{
+  font-size: 48px;
+}
+.main__text{
+  font-size: 16px;
+}
+.main__btn{
+  font-size: 16px;
+  padding: 25px 41px;
+}
+
+  .section2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 50px;
+}
+.section__heading{
+  font-size: 36px;
+}
+.section__text{
+font-size: 16px;
+}
+.section3{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.list{
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.list__item{
+  gap: 20px;
+}
+.section4{
+padding-top: 100px;
+padding-bottom: 100px;
+gap: 50px;
+}
+.section4__video{
+  position: relative;
+}
+.section4__video > img {
+  width: 980px;
+  
+}
+.section4__video > svg {
+  position: absolute;
+  top: 40%;
+  left: 46%;
+  width: 90px;
+}
+}
+
+@media screen and (max-width: 834px) {
+  
+  .container {
+padding: 0 0px;
+}
+
+.section1{
+ width: 834px; }
+
+
+  .menu{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  width: 834px;
+  
+}
+.menu__item{
+  font-size: 16px;
+  font-style: normal;
+}
+
+.main{
+  margin: 100px 0 40px;
+  gap: 30px;
+}
+.main__heading{
+  font-size: 48px;
+}
+.main__text{
+  font-size: 16px;
+}
+.main__btn{
+  font-size: 16px;
+  padding: 25px 41px;
+}
+
+  
+  .section2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 25px;
+  ;
+}
+.section__heading{
+  font-size: 32px;
+}
+.section__text{
+font-size: 16px;
+}
+.section3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  ;
+}
+.list{
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.list__item{
+  gap: 10px;
+}
+.section4{
+padding-top: 50px;
+padding-bottom: 50px;
+gap: 25px;
+;
+}
+.section4__video{
+  position: relative;
+}
+.section4__video > img {
+  width: 634px;
+  
+}
+.section4__video > svg {
+  position: absolute;
+  top: 36%;
+  left: 46%;
+  width: 60px;
+}
+}
+
+@media screen and (max-width: 412px) {
+  
+  .container {
+padding: 0 0px;
+
+}
+  .menu{
+  display: flex;
+  align-items: start;
+  gap: 5px;
+  width: 412px;
+  
+}
+.menu__item{
+  font-size: 11px;
+  font-style: normal;
+}
+
+.main{
+  margin: 20px 0 40px;
+  gap: 15px;
+}
+.main__heading{
+  font-size: 35px;
+}
+.main__text{
+  font-size: 11px;
+}
+.main__btn{
+  font-size: 11px;
+  padding: 20px 36px;
+}
+.section1{
+  width: 412px;}
+  
+  .section2 {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  gap: 15px;
+}
+.section__heading{
+  font-size: 32px;
+}
+.section__text{
+font-size: 11px;
+}
+.section3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.list{
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.list__item{
+  gap: 15px;
+}
+.section4{
+padding-top: 50px;
+padding-bottom: 50px;
+gap: 10px;
+}
+.section4__video{
+  position: relative;
+}
+.section4__video > img {
+  width: 312px;
+  
+}
+.section4__video > svg {
+  position: absolute;
+  top: 26%;
+  left: 43%;
+  width: 50px;
+}
+}
+
+@media screen and (max-width: 360px) {
+  
+  .container {
+padding: 0 0px;
+
+}
+  .menu{
+  display: flex;
+  align-items: start;
+  gap: 5px;
+  width: 360px;
+  
+}
+.menu__item{
+  font-size: 10px;
+  font-style: normal;
+}
+
+.main{
+  margin: 10px 0 30px;
+  gap: 15px;
+}
+.main__heading{
+  font-size: 28px;
+}
+.main__text{
+  font-size: 10px;
+}
+.main__btn{
+  font-size: 10px;
+  padding: 15px 31px;
+}
+.section1{
+  width: 360px;}
+  
+  .section2 {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  gap: 10px;
+}
+.section__heading{
+  font-size: 36px;
+}
+.section__text{
+font-size: 10px;
+}
+.section3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.list{
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.list__item{
+  gap: 10px;
+}
+.section4{
+padding-top: 50px;
+padding-bottom: 50px;
+gap: 10px;
+}
+.section4__video{
+  position: relative;
+}
+.section4__video > img {
+  width: 300px;
+  
+}
+.section4__video > svg {
+  position: absolute;
+  top: 27%;
+  left: 42%;
+  width: 50px;
+}
 }
