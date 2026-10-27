@@ -1,0 +1,15 @@
+.div {
+  display: flex;
+}
+@keyframes fill {
+   0%   { fill: aqua; stroke: rgb(19, 19, 4); }
+  25%  { fill: blue; stroke: rgb(132, 139, 145); }
+  50%  { fill: blanchedalmond; stroke: black; }
+  75%  { fill: brown; stroke: rgb(41, 71, 37); }
+  100% { fill: fuchsia; stroke: crimson; }
+  
+}
+ellipse {
+  animation: fill 10s infinite;
+  
+}
